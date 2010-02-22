@@ -4,7 +4,7 @@ require 'UUIDTools'
 
 puts "sipsorcery get notifications sample"
 
-notificationsURL = "http://localhost:8080/notificationspull.svc/rest/"
+notificationsURL = "https://www.sipsorcery.com/notificationspull.svc/rest/"
 myUsername = "username"
 myPassword = "password"
 addressID = UUIDTools::UUID.random_create
